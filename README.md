@@ -1,4 +1,4 @@
-# Checkout-React
+# Checkout React
 
 ## 📌 Descrição
 
@@ -15,7 +15,7 @@ O projeto foi desenvolvido utilizando React, JavaScript, JSX e CSS, com navegaç
 ## 🔗 Links
 
 **Repositório no GitHub:**  
-INSIRA_AQUI_O_LINK_DO_SEU_REPOSITÓRIO
+https://github.com/EduardaRBarcelos/CHECKOUT-REACT
 
 **Quadro Kanban (Trello):**  
 https://trello.com/b/KvzTTUSu/checkout-react
@@ -65,14 +65,13 @@ Dessa forma, o projeto demonstra como uma aplicação React pode organizar um fl
 - React Router DOM
 - React Hook Form
 - Zod
-- @hookform/resolvers
+- hookform/resolvers
 - HTML5
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-```text
 checkout-react/
 │
 ├── src/
@@ -141,15 +140,13 @@ checkout-react/
 - Abra o terminal na pasta do projeto.
 
 - Instale as dependências:
-   ```bash
+   bash
    npm install
-   ```
 
 - Inicie o servidor de desenvolvimento:
 
-   ```bash
+   bash
    npm run dev
-   ```
 
 - Acesse no navegador o endereço informado pelo Vite.
 
