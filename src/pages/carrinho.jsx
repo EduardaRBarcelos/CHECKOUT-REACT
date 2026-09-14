@@ -17,7 +17,7 @@ function Carrinho() {
             <img
                 className="logo"
                 src={logo}
-                alt="Checkout - React - Sua loja online"
+                alt="Lumi Store - Sua loja online"
             />
 
             <header>
