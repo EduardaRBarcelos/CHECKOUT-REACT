@@ -6,7 +6,7 @@ function ResumoCompra({ produtos, onFinalizar }) {
 
     return (
         <aside className="resumo-compra">
-            <h2>Resumo da compra</h2>
+            <h2>Resumo da Compra</h2>
 
             <p>
                 Total: <strong>R$ {total.toFixed(2)}</strong>
