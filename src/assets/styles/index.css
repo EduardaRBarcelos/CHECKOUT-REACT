@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button,
+.botao {
+    display: inline-block;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 18px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #222;
+    color: #fff;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+    outline: 3px solid #555;
+    outline-offset: 2px;
+}
+
+.pagina {
+    width: min(100% - 32px, 900px);
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.pagina header {
+    margin-bottom: 24px;
+}
+
+.lista-produtos {
+    display: grid;
+    gap: 16px;
+}
+
+.item-carrinho,
+.resumo-compra,
+.formulario-pagamento,
+.pagina-resultado section {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.item-carrinho {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.item-carrinho h2 {
+    margin-top: 0;
+}
+
+.resumo-compra {
+    margin-top: 24px;
+}
+
+.resumo-compra p {
+    font-size: 1.2rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo input {
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.formulario-pagamento {
+    display: grid;
+    gap: 18px;
+}
+
+.linha-campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.erro {
+    margin: 0;
+    color: #b00020;
+    font-size: 0.9rem;
+}
+
+.pagina-resultado {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .pagina {
+        width: min(100% - 20px, 900px);
+        padding: 24px 0;
+    }
+
+    .item-carrinho {
+        flex-direction: column;
+    }
+
+    .linha-campos {
+        grid-template-columns: 1fr;
+    }
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-bottom: 30px;
+}
