@@ -1,8 +1,8 @@
-# Checkout React
+# Lumi Store
 
 ## 📌 Descrição
 
-O Checkout - React é uma aplicação web desenvolvida para simular o processo de finalização de uma compra em um e-commerce.
+O Lumi Store é uma aplicação web desenvolvida para simular o processo de finalização de uma compra em um e-commerce.
 
 A aplicação permite que o usuário visualize os produtos adicionados ao carrinho, confira o valor total da compra e avance para uma tela de pagamento. Nessa etapa, o usuário informa os dados do cartão e o sistema realiza uma simulação de processamento do pagamento.
 
@@ -71,7 +71,7 @@ Dessa forma, o projeto demonstra como uma aplicação React pode organizar um fl
 ---
 
 ## 📁 Estrutura do Projeto
-
+```
 checkout-react/
 │
 ├── src/
@@ -108,7 +108,7 @@ checkout-react/
 ├── package-lock.json
 ├── README.md
 └── vite.config.js
-
+```
 ---
 
 ## ⚙️ Funcionalidades
@@ -121,10 +121,10 @@ checkout-react/
 - Validação dos dados utilizando React Hook Form e Zod.
 - Aceitação de espaços e hífens no número do cartão.
 - Simulação do processamento do pagamento.
-- Exibição da mensagem `Processando compra…` durante o processamento.
+- Exibição da mensagem processando compra…, durante o processamento.
 - Tela de compra aprovada.
 - Tela de compra não aprovada.
-- Identificação de cartão com os 16 dígitos iguais como `tentativa de golpe`.
+- Identificação de cartão com os 16 dígitos iguais como tentativa de golpe.
 - Opção para tentar o pagamento novamente.
 - Navegação entre as telas utilizando React Router.
 - Interface responsiva e com recursos de acessibilidade.
@@ -140,14 +140,14 @@ checkout-react/
 - Abra o terminal na pasta do projeto.
 
 - Instale as dependências:
-   bash
+```bash
    npm install
-
+```
 - Inicie o servidor de desenvolvimento:
 
-   bash
+```bash
    npm run dev
-
+```
 - Acesse no navegador o endereço informado pelo Vite.
 
 ---
